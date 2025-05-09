@@ -1,0 +1,17 @@
+﻿//Conditional statements - lab, Task 005
+//03.05.2025, 01:24
+
+int number = int.Parse(Console.ReadLine());
+
+if(number < 100)
+{
+    Console.WriteLine("Less than 100");
+}
+else if(number >= 100 && number <= 200)
+{
+    Console.WriteLine("Between 100 and 200");
+}
+else if(number > 200)
+{
+    Console.WriteLine("Greater than 200");
+}
